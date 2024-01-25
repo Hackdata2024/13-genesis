@@ -1,19 +1,15 @@
 ﻿
 
-# Taru : Plants Search with Weather 
+# IntelliGreen
 
-[![APP](https://img.shields.io/badge/APP-1.0.3-E0234E.svg?style=for-the-badge)](https://android-arsenal.com/api?level=24)
-[![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=for-the-badge)](https://android-arsenal.com/api?level=24) ![Hilt](https://img.shields.io/badge/Hilt-2.44-FFCA28?style=for-the-badge)
 
-> Introducing Taru - the ultimate app for plant lovers! Our Android app is built using MVVM architecture with local caching using Room SQLite Database. With Taru, you can identify plants, check the weather, and discover new favorites. And the best part? Taru is completely open source!
+
+> Introducing IntelliGreen - the ultimate app for plant lovers! Our is built using MVVM architecture with local caching using Room SQLite Database. With Taru, you can identify plants, check the weather, and discover new favorites.
 
 
 
 ![](images/intelligreen.webp)
 ![](images/scan.webp)
-
-
-## [Download it on Google Play here](https://play.google.com/store/apps/details?id=com.intelligreen)
 
 
 
