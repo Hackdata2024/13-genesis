@@ -1,20 +1,97 @@
-# Teaminteeligenesis317
-An intelligent green wave project.
+﻿
+
+# Taru : Plants Search with Weather 
+
+[![APP](https://img.shields.io/badge/APP-1.0.3-E0234E.svg?style=for-the-badge)](https://android-arsenal.com/api?level=24)
+[![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=for-the-badge)](https://android-arsenal.com/api?level=24) ![Hilt](https://img.shields.io/badge/Hilt-2.44-FFCA28?style=for-the-badge)
+
+> Introducing Taru - the ultimate app for plant lovers! Our Android app is built using MVVM architecture with local caching using Room SQLite Database. With Taru, you can identify plants, check the weather, and discover new favorites. And the best part? Taru is completely open source!
 
 
 
-Intell-i-Green: Empowering Sustainable Living through Technology and Community
+![](images/intelligreen.webp)
+![](images/scan.webp)
 
-Intell-i-Green is an innovative platform that revolutionizes the way individuals engage with sustainable living. Our comprehensive website and mobile app harness the power of cutting-edge technologies, including machine learning, natural language processing, and community-driven collaboration, to create a thriving ecosystem for green practices.
 
-Through Intell-i-Green, users gain access to a vast database of over 60,000 plant species, empowering them to effortlessly identify plants, access personalized care information, and foster optimal growth. Our intelligent chatbot serves as a virtual assistant, providing real-time answers, tailored solutions, and the latest insights on plant care, estimated costs, and resource requirements.
+## [Download it on Google Play here](https://play.google.com/store/apps/details?id=com.intelligreen)
 
-We understand the importance of knowledge sharing and community support, which is why Intell-i-Green offers an interactive community forum. Here, individuals can connect with like-minded enthusiasts, exchange ideas, seek advice, and participate in our exciting rewards program, incentivizing growth and collaboration.
 
-Furthermore, our platform goes beyond plant care, providing a comprehensive resource hub encompassing articles, guides, and expert advice on sustainable practices, indoor plant design, and gifting ideas.
 
-Intell-i-Green is poised to empower individuals in their green journeys, breaking down barriers and providing accessible, reliable, and centralized resources. By fostering a sense of community, leveraging advanced technologies, and promoting sustainable living, we aim to create a brighter and greener future for both people and the planet.
+## Feature Roadmap
+- 2023: Insect Detection.
+- 2023: Plantation Guidance.
 
-Join us as we embrace the power of technology, community collaboration, and knowledge sharing to drive meaningful change and empower individuals to make a positive impact through Intell-i-Green.
 
-Keywords: sustainable living, plant care, machine learning, natural language processing, community collaboration, resource hub, intelligent chatbot, rewards program, green practices.
+<!-- - [Use Cases](https://github.com/JunkieLabs/intelligreen-plants-android/wiki/Use-Cases) -->
+
+## Setup:
+- create `local.properties` file in [root folder](./) if not exists.
+- Add `weatherKey`, `trefleKey` and `plantnetKey` in the file as shown below.
+
+
+```android
+...
+
+weatherKey="key here"
+trefleKey="key here"
+plantnetKey="key here"
+```
+
+- Get `weatherKey` from [Open Weather Map](https://openweathermap.org/)
+,  `trefleKey` from [Trefle](https://trefle.io/) and `plantnetKey` from [Plantnet](https://my.plantnet.org/)
+
+
+
+## Features
+
+The whole functionality is implemented inside the domain folder, where the repository accesses remote and local data from the data folder and provides it to the viewmodel using the Use Case (Clean Architecture).
+
+* Use of open source api.
+* Usage of android Data binding.
+* MVVM Architecture + Clean architecture.
+* Android Room Sqlite Database for local cache.
+* Theming in M3 for Light and Dark.
+
+
+
+## Tech Stack
+
+This project takes advantage of best practices of common libraryies and tools in android.
+
+* [Kotlin](https://kotlinlang.org/)  
+* [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - for background operations  
+* [Hilt](https://dagger.dev/hilt/) - for dependency injection  
+* [Coil](https://github.com/coil-kt/coil) - image loading library
+* [Jetpack libraries](https://developer.android.com/jetpack):
+   * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) - in-app navigation
+   * [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - perform an action when lifecycle state changes
+   * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - store and manage UI-related data in a lifecycle conscious way
+
+
+
+<br>
+
+## Show your love :heart: by giving a :star: on this project.
+
+<br>
+
+<br>
+
+
+
+
+
+
+# Open Source Credits
+
+
+
+- [PlantNet](https://identify.plantnet.org/) for plants detection.
+- [Trefle](https://trefle.io) is open source plants database.
+- [OpenWeatherMap](https://api.openweathermap.org) used of Weather Forecast.
+
+
+# License
+
+[![License](https://img.shields.io/:license-apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
+
