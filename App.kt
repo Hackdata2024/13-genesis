@@ -1,4 +1,4 @@
-package com.intelligreen
+package com.intelli
 
 import android.app.Application
 import android.content.Context
